@@ -7,8 +7,7 @@ from scapy.all import *
 from random import shuffle, randint
 from datetime import datetime
 
-conf.checkIPaddr = False						# SOMEONE TELL ME WTF THIS DOES IDEK???
-									# BUT 3 DAYS WERE WASTED WITHOUT IT
+conf.checkIPaddr = False						
 
 def starvation():
 	# Designer DHCP Discover Packet Crafting
